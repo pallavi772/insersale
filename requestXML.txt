@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Request MachineType="16" Machine="5299" UserID="481">
+	<Parameters>
+		<ID>1299897</ID>
+		<Sale BusinessGroup="HT0" CTRReference="7L3N4HR7" Fulfilment="H" IssueMachine="9010" IssueMachineType="34" IssueOffice="1625" IssueWindow="48" SaleIssueDate="20180223" SaleNumber="06762">
+			<Tickets>
+				<Ticket ApplicationTicketId="" Class="2" Destination="1072" DiscountCode="    " DiscountPercent="000" FareAmount="8900" FulfilmentMethod=" " IssueDate="20180223" NumAAA="0" NumAdults="1" NumChildren="0" NumCoupons="02" Origin="1826" PackageNumber="00000" ProductType="TT" PromotionCode="  " Railcard="   " Route="00056" Status="000" TicketType="SVR" TransactionNumber="22001">
+					<TicketDetails CarnetLayout=" " MandatoryReservation="N" OutwardDate="20180223" />
+					<LoyaltyDetail LoyaltyType="Nectar" SponsorId="" TransactionId="36452075120616" LocationId="SNAYLPC32" LoyaltyCardId="9826300039509172019" OfferCode="" Points="98">
+						<LoyaltyCardId>258</LoyaltyCardId>
+					</LoyaltyDetail>
+					<IssueDate>20180223</IssueDate>
+					<TransactionNumber>22000</TransactionNumber>
+					<TicketUsage />
+				</Ticket>
+			</Tickets>
+			<Sundries>
+				<Sundry Amount="800" DebitCreditInd="D" IssueDate="20180223" NumItems="1" SundryCode="91221" SundryTransactionNumber="" TransactionNumber="22000">
+					<IssueDate>20180223</IssueDate>
+					<TransactionNumber>22000</TransactionNumber>
+				</Sundry>
+			</Sundries>
+			<NonIssues />
+			<Payments>
+				<Payment Amount="9700" AuthCode="141902" AutoSettlement="" CompanyCode="02" CompanySubType="0" CostCentre="" CreditInd="D" DocType="" ExpiryDate="1223" IssueNumber="  " MOP="X" MaskedPAN="000400600******0600" PANHandle="19f24126-bcf6-483a-934e-41e73120402e" PersonId="" StartDate="" WarrantAccount="" WarrantNumber="" WarrantType=" " />
+			</Payments>
+			<IssueMachine>9010</IssueMachine>
+			<CTRReference>7L3N4HR7</CTRReference>
+			<Refunds>
+				<Refund RefundReference="HBW03419" WebTISRefundId="530" RefundReason="01" Title="Mrs" Forename="Avanish" Surname="Mishra" AddressLine1="Atos Origin Building" AddressLine2="1 Beeston Business Park Technology Drive" AddressLine3="Beeston" AddressLine4="Nottingham" Postcode="NG9 1LA" HomeTelephone="" MobileTelephone="34234234234" CreatedDateTime="20180223171534" CreationUserId="SYSTEM" AuthorisedDateTime="20180223171534" AuthorisingUserName="SYSTEM" AuthorisingUserId="00000001" RefundStatus="A">
+					<RefundReference>HBW03419</RefundReference>
+					<Surname>Mishra</Surname>
+					<Postcode>NG9 1LA</Postcode>
+					<RefundStatus>A</RefundStatus>
+					<AdminFee Amount="0" AdminFeeType="A" AdminFeeKeyed="A" Id="0" SundryCode="91311" />
+					<RefundItems>
+						<RefundItem Type="T" ReversalMethod=" " TransNumber="22000" RefundAmount="8900" Keyed="T" ApplicationTicketId="T1J1F55A1C0" />
+					</RefundItems>
+					<RefundPayments>
+						<Payment MOP="X" PaymentRefundFlag="R" WebTISPaymentId="1" Amount="8900" PANHandle="19f24126-bcf6-483a-934e-41e73120402e" MaskedPAN="400600******0600" Expiry="1223" StartDate="" AuthCode="141902" IssueNumber="" CompanyCode="2" CompanySubType="0" NotionalPayment="N" />
+					</RefundPayments>
+				</Refund>
+			</Refunds>
+		</Sale>
+	</Parameters>
+</Request>
